@@ -1,16 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* @font-face {
+  font-family: 'icomoon';
+  src: url('/fonts/icomoon/fonts/icomoon.woff');
+} */
+
+.group:hover .absolute {
+  visibility: visible;
+  opacity: 1;
 }
+
+.absolute {
+  top: 100%;
+  left: 0;
+  z-index: 10;
+}
+
+/* Hide the dropdown menu by default */
+.invisible {
+  visibility: hidden;
+}
+
 
 @tailwind base;
 @tailwind components;

@@ -1,8 +1,7 @@
-import './App.css';
-import Hero from './components/Hero';
 import bg1 from "../src/assets/hero_bg_1.jpg"
 import bg2 from "../src/assets/hero_bg_2.jpg"
 import bg3 from "../src/assets/hero_bg_3.jpg"
+import Hero from "./views/Hero";
 
 
 

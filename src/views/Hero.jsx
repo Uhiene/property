@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import Navbar from "./Navbar";
-import HeroTexr from "./HeroTexr";
+import HeroText from "../components/HeroText";
+import Navbar from "../components/Navbar";
 
 const Hero = ({ images }) => {
   return (
@@ -31,7 +31,7 @@ const Hero = ({ images }) => {
             style={{ backgroundImage: `url(${image})` }}
           >
             <Navbar />
-              <HeroTexr />
+            <HeroText />
           </div>
         </SwiperSlide>
       ))}
