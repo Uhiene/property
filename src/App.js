@@ -1,19 +1,15 @@
-import bg1 from "../src/assets/hero_bg_1.jpg"
-import bg2 from "../src/assets/hero_bg_2.jpg"
-import bg3 from "../src/assets/hero_bg_3.jpg"
-import Hero from "./views/Hero";
-
-
+import { Route, Routes } from 'react-router-dom'
+import LandingPage from "./views/LandingPage";
+import HomeDetailPage from './views/HomeDetailPage';
 
 function App() {
-  const images = [
-    bg1, bg2, bg3
-  ];
-
   return (
     <div className="">
-      <Hero images={images}  className="w-screen h-screen" />
-      {/* <div className='h-screen'></div> */}
+      <Routes>
+          <Route path="/room/:id" element={<HomeDetailPage/>} />
+          <Route path="/" element={<LandingPage/>} />
+      </Routes>
+      
     </div>
   );
 }

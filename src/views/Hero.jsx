@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import HeroText from "../components/HeroText";
-import Navbar from "../components/Navbar";
+import HeroText from "../components/hero/HeroText";
+import Navbar from "../components/hero/Navbar";
 
 const Hero = ({ images }) => {
   return (
@@ -27,7 +27,7 @@ const Hero = ({ images }) => {
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <div
-            className="w-screen h-screen bg-no-repeat bg-cover bg-center py-8 px-20"
+            className="w-screen h-screen bg-no-repeat bg-cover bg-center py-4 md:py-8 px-5 md:px-20"
             style={{ backgroundImage: `url(${image})` }}
           >
             <Navbar />
