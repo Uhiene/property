@@ -5,7 +5,7 @@ import Statistics from '../components/yourHomes/Statistics'
 
 const YourHome = () => {
   return (
-    <div className='bg-[#F8F9FA] px-5 py-10 md:p-16 md:pr-0 w-screen'>
+    <div className='bg-[#F8F9FA] px-5 py-10 md:p-16 md:pr-0 w-screen' id='services'>
         <Header/>
         <Hero/>
         <Statistics/>

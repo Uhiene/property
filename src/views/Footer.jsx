@@ -20,7 +20,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-[#EFEFEF] px-5 py-10 md:p-14">
+    <div className="bg-[#EFEFEF] px-5 py-10 md:p-14" id="contact">
       <div className="md:flex justify-between space-y-6 md:space-y-0">
         <div className="md:w-1/3">
           <h1 className="text-[#00204a] font-[700] text-xs mb-3">CONTACT</h1>

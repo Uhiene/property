@@ -13,12 +13,12 @@ const HomeDetails = () => {
   }, []);
 
   return (
-    <div className="flex justify-between p-16">
-      <div className="w-2/3">
-        <img src={house} alt="" className="w-[90%] h-11/12" />
+    <div className="md:flex justify-between p-5 md:p-16">
+      <div className="md:w-2/3 mb-5 md:mb-0">
+        <img src={house} alt="" className="md:w-[90%] h-11/12" />
       </div>
-      <div className="w-1/3 text-[#888888] text-sm">
-        <h1 className="text-[#00204A] text-3xl mb-2">
+      <div className="md:w-1/3 text-[#888888] text-sm">
+        <h1 className="text-[#00204A] text-xl font-semibold md:text-3xl mb-2">
           5232 California Ave. 21BC
         </h1>
         <p>California, United States</p>

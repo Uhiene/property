@@ -4,7 +4,7 @@ import PropertyTitle from "../components/properties/PropertyTitle";
 
 const Property = () => {
   return (
-    <div className="bg-white w-screen py-10 px-5 md:p-16 space-y-14">
+    <div className="bg-white w-screen py-10 px-5 md:p-16 space-y-14" id="property">
       <PropertyTitle />
       <PropertySlide />
      

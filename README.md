@@ -1,7 +1,7 @@
 # REALESTATE PROPERTIES
 
 Demo
-![demo video](./screenshots/REALEstate.gif)
+![demo video](./screenshot/REALEstate.gif)
 
 This is a simple website for real estate and properties. It provides users with information about various properties, such as houses, apartments, and commercial spaces, as well as relevant services and resources in the real estate industry. The website aims to assist users in their search for suitable properties and to facilitate communication with real estate agents or property owners.
 

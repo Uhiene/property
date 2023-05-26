@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Properties = () => {
   const [property] = useGlobalState("property");
   return (
-    <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between bg-[#F2F4F6] py-4 md:py-8 px-5 md:px-20 text-center">
+    <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between bg-[#F2F4F6] py-4 md:py-8 px-5 md:px-20 text-center" id="about">
       {property.map((propertys, i) => (
         <div
           className="bg-white w-80 sm:w-72 md:w-64 py-8 px-6 rounded-md space-y-4 m-4"
